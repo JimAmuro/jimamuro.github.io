@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jim Amuro</title>
+    <link>http://JimAmuro.github.io/</link>
+    <description>Recent content on Jim Amuro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Dec 2015 20:52:41 -0800</lastBuildDate>
+    <atom:link href="http://JimAmuro.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NewYear</title>
+      <link>http://jimamuro.github.io/post/NewYear/</link>
+      <pubDate>Thu, 31 Dec 2015 20:52:41 -0800</pubDate>
+      
+      <guid>http://jimamuro.github.io/post/NewYear/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Happy new year 2016!&lt;/li&gt;
+&lt;li&gt;新年快乐！&lt;/li&gt;
+&lt;li&gt;あけましておめでとう！&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>你好, Hugo!</title>
+      <link>http://jimamuro.github.io/welcome/</link>
+      <pubDate>Thu, 31 Dec 2015 15:11:03 -0800</pubDate>
+      
+      <guid>http://jimamuro.github.io/welcome/</guid>
+      <description>&lt;p&gt;Do you know what does Jim Amuro mean?&lt;br /&gt;
+我最喜欢高达和星际争霸。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

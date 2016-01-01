@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jim Amuro</title>
+    <link>http://JimAmuro.github.io/post/</link>
+    <description>Recent content in Posts on Jim Amuro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Dec 2015 20:52:41 -0800</lastBuildDate>
+    <atom:link href="http://JimAmuro.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NewYear</title>
+      <link>http://jimamuro.github.io/post/NewYear/</link>
+      <pubDate>Thu, 31 Dec 2015 20:52:41 -0800</pubDate>
+      
+      <guid>http://jimamuro.github.io/post/NewYear/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Happy new year 2016!&lt;/li&gt;
+&lt;li&gt;新年快乐！&lt;/li&gt;
+&lt;li&gt;あけましておめでとう！&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
