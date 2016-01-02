@@ -15,7 +15,13 @@
   <link rel="stylesheet" href="http://jimamuro.github.io/css/syntax.css">
   <link rel="stylesheet" href="http://jimamuro.github.io/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Marck+Script">
+  
+  
+  <script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
 
+  
   
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
   <link rel="shortcut icon" href="/favicon.png">
@@ -31,7 +37,7 @@
     <div class="sidebar-about">
       <a href="http://jimamuro.github.io/"><h1>Jim Amuro</h1></a>
       <p class="lead">
-       Personal Blog of Hui Sun 
+       Personal Website of Hui Sun 
       </p>
     </div>
 
@@ -40,7 +46,7 @@
       
     </ul>
 
-    <p>&copy; 2015. All rights reserved. </p>
+    <p>Built by Hui Sun using <a href="http://hugo.spf13.com">hugo</a></p>
   </div>
 </div>
 
@@ -49,6 +55,21 @@
 <div class="posts">
 
       
+  <div class="post">
+    <h1 class="post-title">
+      <a href="http://jimamuro.github.io/post/TestMJ/">
+        Test MathJax
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Jan 1, 2016</span>
+
+    <p>inline <span  class="math">\( e^{i\pi}=-1 \)</span></p>
+
+<p><span  class="math">\[ f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_0 \]</span></p>
+
+  </div>
+  
   <div class="post">
     <h1 class="post-title">
       <a href="http://jimamuro.github.io/post/TestPic/">
@@ -65,6 +86,11 @@
         <img src="/media/how%20to%20study%20math.jpg" />
     
     
+    <figcaption>
+        <h4>How To Study Math</h4>
+        
+    </figcaption>
+    
 </figure>
 </p>
 
@@ -79,56 +105,54 @@
 
     <span class="post-date">Thu, Dec 31, 2015</span>
 
-    <p>Test
-<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">1 </span><span style="color: #f92672">&lt;section</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;main&quot;</span><span style="color: #f92672">&gt;</span>
-<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">2 </span>  <span style="color: #f92672">&lt;div&gt;</span>
-<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">3 </span>    <span style="color: #f92672">&lt;h1</span> <span style="color: #a6e22e">id=</span><span style="color: #e6db74">&quot;title&quot;</span><span style="color: #f92672">&gt;</span>{{ .Title }}<span style="color: #f92672">&lt;/h1&gt;</span>
+    <div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="background-color: #f0f0f0; padding: 0 5px 0 5px">1 </span><span style="color: #008000; font-weight: bold">&lt;section</span> <span style="color: #7D9029">id=</span><span style="color: #BA2121">&quot;main&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">2 </span>  <span style="color: #008000; font-weight: bold">&lt;div&gt;</span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">3 </span>    <span style="color: #008000; font-weight: bold">&lt;h1</span> <span style="color: #7D9029">id=</span><span style="color: #BA2121">&quot;title&quot;</span><span style="color: #008000; font-weight: bold">&gt;</span>{{ .Title }}<span style="color: #008000; font-weight: bold">&lt;/h1&gt;</span>
 <span style="background-color: #f0f0f0; padding: 0 5px 0 5px">4 </span>    {{ range .Data.Pages }}
 <span style="background-color: #f0f0f0; padding: 0 5px 0 5px">5 </span>      {{ .Render &quot;summary&quot;}}
 <span style="background-color: #f0f0f0; padding: 0 5px 0 5px">6 </span>    {{ end }}
-<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">7 </span>  <span style="color: #f92672">&lt;/div&gt;</span>
-<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">8 </span><span style="color: #f92672">&lt;/section&gt;</span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">7 </span>  <span style="color: #008000; font-weight: bold">&lt;/div&gt;</span>
+<span style="background-color: #f0f0f0; padding: 0 5px 0 5px">8 </span><span style="color: #008000; font-weight: bold">&lt;/section&gt;</span>
 </pre></div>
 
-End Test</p>
 
-<p><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #75715e">/*Standard system stuff - these are the ONLY ones that may be used.*/</span>
-<span style="color: #75715e">#include &lt;stdio.h&gt;</span>
-<span style="color: #75715e">#include &lt;string.h&gt;</span>
-<span style="color: #75715e">#include &lt;math.h&gt;</span>
-<span style="color: #75715e">#include &lt;stdlib.h&gt;</span>
+<p><div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #408080; font-style: italic">/*Standard system stuff - these are the ONLY ones that may be used.*/</span>
+<span style="color: #BC7A00">#include &lt;stdio.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;string.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;math.h&gt;</span>
+<span style="color: #BC7A00">#include &lt;stdlib.h&gt;</span>
 
-<span style="color: #75715e">/*Path to the map folder; may need to change this.*/</span>
-<span style="color: #75715e">#include &quot;MapPATH.h&quot;</span>
+<span style="color: #408080; font-style: italic">/*Path to the map folder; may need to change this.*/</span>
+<span style="color: #BC7A00">#include &quot;MapPATH.h&quot;</span>
 
-<span style="color: #75715e">/*MAY NOT be modified, but should be viewed.*/</span>
-<span style="color: #75715e">#include &quot;Map.h&quot; /*Map data parameters, structures, and functions.*/</span>
+<span style="color: #408080; font-style: italic">/*MAY NOT be modified, but should be viewed.*/</span>
+<span style="color: #BC7A00">#include &quot;Map.h&quot; </span><span style="color: #408080; font-style: italic">/*Map data parameters, structures, and functions.*/</span><span style="color: #BC7A00"></span>
 
-<span style="color: #75715e">/*MAY NOT be modified, and there is no need view them:*/</span>
-<span style="color: #75715e">#include &quot;MapData.h&quot;   /*Functions to input the map data.*/</span>
-<span style="color: #75715e">#include &quot;MapInput.h&quot;  /*Functions to get user input.*/</span>
-<span style="color: #75715e">#include &quot;MapOutput.h&quot; /*Functions to produce output.*/</span>
+<span style="color: #408080; font-style: italic">/*MAY NOT be modified, and there is no need view them:*/</span>
+<span style="color: #BC7A00">#include &quot;MapData.h&quot;   </span><span style="color: #408080; font-style: italic">/*Functions to input the map data.*/</span><span style="color: #BC7A00"></span>
+<span style="color: #BC7A00">#include &quot;MapInput.h&quot;  </span><span style="color: #408080; font-style: italic">/*Functions to get user input.*/</span><span style="color: #BC7A00"></span>
+<span style="color: #BC7A00">#include &quot;MapOutput.h&quot; </span><span style="color: #408080; font-style: italic">/*Functions to produce output.*/</span><span style="color: #BC7A00"></span>
 
-<span style="color: #75715e">/*Use this to get the time to travel along an edge.*/</span>
-<span style="color: #75715e">#define EdgeCost(X) ( (TimeFlag) ? Time(X) : Elength[X] )</span>
+<span style="color: #408080; font-style: italic">/*Use this to get the time to travel along an edge.*/</span>
+<span style="color: #BC7A00">#define EdgeCost(X) ( (TimeFlag) ? Time(X) : Elength[X] )</span>
 
-<span style="color: #75715e">/*Use this to print a leg of a route or tour.*/</span>
-<span style="color: #66d9ef">void</span> <span style="color: #a6e22e">PrintLeg</span><span style="color: #f8f8f2">(</span><span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">edge);</span>
-
+<span style="color: #408080; font-style: italic">/*Use this to print a leg of a route or tour.*/</span>
+<span style="color: #B00040">void</span> <span style="color: #0000FF">PrintLeg</span>(<span style="color: #B00040">int</span> edge);
 
 
-<span style="color: #75715e">/***************************************************************************************/</span>
-<span style="color: #75715e">/*GRAPH ADJACENCY LIST DATA STRUCTURE                                                  */</span>
-<span style="color: #75715e">/***************************************************************************************/</span>
 
-<span style="color: #66d9ef">typedef</span> <span style="color: #66d9ef">struct</span> <span style="color: #f8f8f2">outedge</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #75715e">/*out edge of a vertex*/</span>
-    <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">pointing;</span>
-    <span style="color: #66d9ef">int</span> <span style="color: #f8f8f2">eindex;</span>
-    <span style="color: #66d9ef">struct</span> <span style="color: #f8f8f2">outedge</span> <span style="color: #f92672">*</span><span style="color: #f8f8f2">nextedge;</span>
-<span style="color: #f8f8f2">}</span> <span style="color: #f8f8f2">Outedge;</span>
+<span style="color: #408080; font-style: italic">/***************************************************************************************/</span>
+<span style="color: #408080; font-style: italic">/*GRAPH ADJACENCY LIST DATA STRUCTURE                                                  */</span>
+<span style="color: #408080; font-style: italic">/***************************************************************************************/</span>
 
-<span style="color: #f8f8f2">Outedge</span> <span style="color: #f92672">*</span><span style="color: #f8f8f2">Oedges[MaxVertex];</span>
+<span style="color: #008000; font-weight: bold">typedef</span> <span style="color: #008000; font-weight: bold">struct</span> outedge {
+    <span style="color: #408080; font-style: italic">/*out edge of a vertex*/</span>
+    <span style="color: #B00040">int</span> pointing;
+    <span style="color: #B00040">int</span> eindex;
+    <span style="color: #008000; font-weight: bold">struct</span> outedge <span style="color: #666666">*</span>nextedge;
+} Outedge;
+
+Outedge <span style="color: #666666">*</span>Oedges[MaxVertex];
 </pre></div>
 </p>
 
