@@ -15,7 +15,7 @@
       <pubDate>Fri, 01 Jan 2016 14:33:37 -0800</pubDate>
       
       <guid>http://jimamuro.github.io/post/TestMJ/</guid>
-      <description>&lt;p&gt;inline &lt;span  class=&#34;math&#34;&gt;\( e^{i\pi}=-1 \)&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Euler: &lt;span  class=&#34;math&#34;&gt;\( e^{i\pi}=-1 \)&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[ f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+...+a_0 \]&lt;/span&gt;&lt;/p&gt;
 </description>
@@ -118,13 +118,12 @@ Outedge &lt;span style=&#34;color: #666666&#34;&gt;*&lt;/span&gt;Oedges[MaxVerte
     </item>
     
     <item>
-      <title>你好, Hugo!</title>
-      <link>http://jimamuro.github.io/welcome/</link>
+      <title>About</title>
+      <link>http://jimamuro.github.io/about/</link>
       <pubDate>Thu, 31 Dec 2015 15:11:03 -0800</pubDate>
       
-      <guid>http://jimamuro.github.io/welcome/</guid>
-      <description>&lt;p&gt;Do you know what does Jim Amuro mean?&lt;br /&gt;
-我最喜欢高达和星际争霸。&lt;/p&gt;
+      <guid>http://jimamuro.github.io/about/</guid>
+      <description>&lt;p&gt;I am a stupid guy. So stupid that I studied chemistry as my undergraduate major. Now I am learning computer science.&lt;/p&gt;
 </description>
     </item>
     
